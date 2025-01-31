@@ -1,0 +1,2 @@
+# sperror
+Extending Error object
