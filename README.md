@@ -22,7 +22,6 @@
   - [Helpers](#helpers)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ---
 
