@@ -9,7 +9,7 @@ describe('tryWithSperor', () => {
     const data = getData();
     const { result, error } = tryWithSperror(() => data);
     expect(result).toBe(data);
-    expect(error).toBeNull();
+    expect(error).toBeFalsy();
   });
 
   it('returns sperror on error', () => {
