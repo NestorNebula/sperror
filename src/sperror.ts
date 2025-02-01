@@ -12,7 +12,7 @@ class Sperror extends Error {
   log: () => void = () => {
     console.error(
       `${this.title}: ${this.msg}${
-        this.statusCode ? `(${this.statusCode})` : ''
+        this.statusCode ? ` (${this.statusCode})` : ''
       }`
     );
   };
